@@ -20,8 +20,8 @@ The correct sequence of steps for Macarena are:
 
 ```
 1. "Right arm out in front of you, palm facing down."
-2. "Left arm out in front of you, palm facing down."
-3. "Turn your right palm up."
+2. "Turn your right palm up."
+3. "Left arm out in front of you, palm facing down."
 4. "Turn your left palm up."
 5. "Place your right hand on your left shoulder."
 6. "Place your left hand on your right shoulder."
@@ -36,7 +36,7 @@ Failures:
 
   1) The Macarena Step 2: prints 'Left arm out in front of you, palm facing down'
      Failure/Error: expect(steps[2]).to include(step_2), "\nStep 2 should be '#{step_2}'"
-     
+
        Step 2 should be 'Left arm out in front of you, palm facing down', not 'Step 2: Turn your right palm up.'
      # ./spec/messy_macarena_lab_ruby_spec.rb:26:in `block (3 levels) in <top (required)>'
 
